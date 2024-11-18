@@ -6,12 +6,11 @@
 
 
 typedef struct {
-    char nome[100];   // Nome do aluno
-    float notas[3];   // Notas do aluno
-    float media;      // Média do aluno
+    char nome[100];  
+    float notas[3];  
+    float media;      
 } aluno;
 
-// Função para calcular a média
 float calcularMedia(float notas[], int numNotas) {
     float soma = 0;
     for (int i = 0; i < numNotas; i++) {
